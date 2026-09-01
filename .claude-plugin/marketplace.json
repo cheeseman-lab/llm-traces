@@ -1,0 +1,20 @@
+{
+  "name": "llm-traces",
+  "owner": {
+    "name": "Matteo DiBernardo",
+    "email": "matteo.dibernardo@gmail.com"
+  },
+  "metadata": {
+    "description": "Claude Code marketplace for the Cheeseman lab llm-traces plugin (shared archive of distilled Claude sessions).",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "llm-traces",
+      "source": ".",
+      "description": "Offboard Claude sessions into the lab's shared LLM_traces archive and look up prior lab work (including recorded dead ends) before starting new analyses.",
+      "version": "0.1.0",
+      "category": "lab-tools"
+    }
+  ]
+}

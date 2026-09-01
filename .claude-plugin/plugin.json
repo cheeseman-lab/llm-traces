@@ -1,0 +1,10 @@
+{
+  "name": "llm-traces",
+  "version": "0.1.0",
+  "description": "Cheeseman lab shared archive of distilled Claude sessions — offboard chats into /lab/cheeseman_lab/LLM_traces (guide + log + scripts, with dead ends recorded) and look up prior lab work before starting new analyses.",
+  "author": {
+    "name": "Matteo DiBernardo",
+    "email": "matteo.dibernardo@gmail.com"
+  },
+  "homepage": "https://github.com/cheeseman-lab/llm-traces"
+}
