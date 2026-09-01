@@ -25,6 +25,17 @@ In Claude Code:
 Then restart Claude Code (or `/reload-plugins`). Update later with
 `/plugin update llm-traces@llm-traces`.
 
+## Install (claude.ai)
+
+On the Plugins page: **Add marketplace** → `cheeseman-lab/llm-traces`, then
+install the `llm-traces` plugin from it. Alternatively, upload the skill zip
+from `/lab/cheeseman_lab/LLM_traces/llm-traces-skill.zip` via Settings →
+Skills.
+
+Caveat: claude.ai cannot reach the lab filesystem, so there the skill only
+helps *format* a trace (GUIDE/LOG/scripts to download and copy to the share
+yourself) — lookup and INDEX updates need Claude Code on the cluster.
+
 ## Install (symlink, no plugin system)
 
 ```bash
